@@ -8,7 +8,7 @@ const port = process.env.PORT || 5000;
 const dotenv = require("dotenv");
 
 
-app.use(cors({origin: "http://localhost:3000"}));
+app.use(cors({origin: "https://tragin-career.vercel.app"}));
 
 app.use(express.json());
 const connectDB = require("./config/db");
